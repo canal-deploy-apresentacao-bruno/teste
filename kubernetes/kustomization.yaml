@@ -9,4 +9,4 @@ namespace: nodeapp
 images:
 - name: nodeapp
   newName: blgianini/nodeapp
-  newTag: 2d6c4969e3f2ed9fc303f9cef2825d4fa1747a18
+  newTag: 637ab70e3b464b8668a9e9ae52ecdf5bf25e1797
