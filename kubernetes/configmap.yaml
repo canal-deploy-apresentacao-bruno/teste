@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: nodeapp
-data:
-  .env: |
-    teste_variavel=teste

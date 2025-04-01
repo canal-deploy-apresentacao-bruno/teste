@@ -6,5 +6,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(8080, () => {
-    console.log("Olá canal deploy 123 ", process.env.teste_variavel)
+    console.log("Olá canal deploy 123")
 })
