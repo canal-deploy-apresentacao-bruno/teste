@@ -13,8 +13,8 @@ spec:
         app: nodeapp
     spec:
       containers:
-        - name: node-container
-          image: node:18
+        - name: nodeapp
+          image: nodeapp
           volumeMounts:
             - name: env-volume
               mountPath: /app/.env
