@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: nodeapp
 data:
-  teste_variavel: "teste"
+  .env: |
+    teste_variavel=teste
