@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nodeapp
 spec:
-  revisionHistoryLimit: 0
+  replicas: 1
   selector:
     matchLabels:
       app: nodeapp
@@ -13,10 +13,8 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - name: nodeapp
-        image: nodeapp
-        ports:
-        - containerPort: 8080
+        - name: node-container
+          image: node:18
           volumeMounts:
             - name: env-volume
               mountPath: /app/.env
