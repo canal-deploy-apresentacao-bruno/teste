@@ -36,6 +36,7 @@ jobs:
 
             - name: Atualizando os valores da imagem
               run: |
+                ls
                 cd kubernetes
                 kustomize edit set image nodeapp=blgianini/nodeapp:${{ github.sha }}
 
