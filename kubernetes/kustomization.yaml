@@ -7,6 +7,6 @@ resources:
 namespace: nodeapp
 
 images:
-- name: nodeapp
-  newName: blgianini/nodeapp
+- name: teste
+  newName: blgianini/teste
   newTag: 1641041ab5f69f8b4eae317fe233e48c2cac46e0
