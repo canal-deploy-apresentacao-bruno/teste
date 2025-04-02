@@ -9,4 +9,4 @@ namespace: nodeapp
 images:
 - name: teste
   newName: blgianini/teste
-  newTag: 89a229a49b860131cbdc44d00455dcb8ef7befb2
+  newTag: 92ff30eb2e4a482b90f9258a06369db94b63cb45
