@@ -18,7 +18,7 @@ jobs:
               with:
                 username: blgianini
                 password: ${{ secrets.DOCKER_PASSWORD }}
-                repository: blgianini/nodeapp
+                repository: blgianini/teste
                 tags: ${{ github.sha }}, latest
     
     deploy:
