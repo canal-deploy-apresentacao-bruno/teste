@@ -18,7 +18,7 @@ jobs:
               with:
                 username: blgianini
                 password: ${{ secrets.DOCKER_PASSWORD }}
-                repository: blgianini/teste
+                repository: blgianini/nodeapp
                 tags: ${{ github.sha }}, latest
     
     deploy:
@@ -38,7 +38,7 @@ jobs:
               run: |
                 ls
                 cd kubernetes
-                kustomize edit set image teste=blgianini/teste:${{ github.sha }}
+                kustomize edit set image nodeapp=blgianini/nodeapp:${{ github.sha }}
 
             - name: Criando commit tag nova da imagem
               run: |
