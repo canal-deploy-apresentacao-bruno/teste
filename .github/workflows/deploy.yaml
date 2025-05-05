@@ -28,6 +28,9 @@ jobs:
         steps:
             - name: Fazendo checkout do código
               uses: actions/checkout@v2
+              with: 
+                repository: canal-deploy-apresentacao-bruno/teste-config
+                token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
             - name: Rodando o Kustomize
               uses: imranismail/setup-kustomize@v1
